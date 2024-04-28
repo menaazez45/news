@@ -3,65 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>معلومات</title>
-    <meta name="descripe" content="موقع معلومات , معلومات متنوعه">
-    <meta name="google-site-verification" content="6A3cap4a08e9cXS333kd-Ydj5UpLrNLwJE7h_XXOIjw" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8966351593515274"
-     crossorigin="anonymous"></script>
-     <meta name="google-adsense-account" content="ca-pub-8966351593515274">
+    <meta name="google-site-verification" content="Dx1IChkrxQPtVM6jcYXPjRfKWqK_D1CsvCd6zLgNoJE" />
+    <meta name="descripe" content="موقع اخبار , اخبار">
+    <title>الصفحة الرئيسية</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        .p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .menu {
+            background-color: #f2f2f2;
+            padding: 10px 0;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            padding: 0 20px;
+        }
+        .menu a:hover {
+            color: #555;
+        }
+    </style>
 </head>
-<style>
-    body {
-        display: grid;
-        place-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: lightblue;
-    }
-    
-    #m{
-        position: relative;
-        text-align: center;
-        bottom: 5px;
-        font-size: 50px;
-    }
-    p{
-        font-size: 50px;
-    }
-    img{
-    width: 400px;
-    height: auto;
-    }
-    
-
-</style>
 <body>
-    <p>هنا في موقع معلومات نعرض لكم بعض المعلومات التي قد تساعدكمه</p>
-    <br>
-    <img src="4F7D5B64-1C80-4EFE-A20E-E2D2E2E9EB74 (1).jpg">
-    <a id="m" target="_blank" href="سعر الدولار.html">سعر الدولار 31/1/2024</a>
-    <br>
-    <br>
-<img src="360_F_300389025_b5hgHpjDprTySl8loTqJRMipySb1rO0I.jpg">
-    <a id="m" target="_blank" href="يوتيوب.html">شروط الربح من اليوتيوب</a>
-    <br>
-    <br>
-    <img src="صورة واتساب بتاريخ 2024-02-01 في 14.21.21_e3d7afb7.jpg">
-    <a id="m" href="واتساب.html" target="_blank">ربط واتساب علي جهازين</a>
-    <br>
-    <br>
-    <a id="m" href="قناة السويس.html" target="_blank">تراجع ارباح قناة السيويس</a>
-    <br>
-    <br>
-    <img src="4F7D5B64-1C80-4EFE-A20E-E2D2E2E9EB74 (1).jpg">
-    <a id="m" href="سعر الدولار2.html" target="_blank">سعر الدولار 3/2/2024</a>
-    <br>
-    <br>
-    <img src="images (8).jpeg">
-    <a id="m" href="التعليم.html" target="_blank">مشكله في درجات الطلاب في محافظة الغربيه ادارة شرق</a>
-    <br>
-    <br>
-    <img src="United_States_one_dollar_bill,_obverse.jpg">
-    <a id="m" href="سعر الدولار3.html" target="_blank">سعر الدولار 4/2/2024</a>
+
+    <h1>مرحبا بكم</h1>
+    <p class="p">في الموقع يعرض لكم أخبارًا عن الذهب والدولار وحوادث و أخبارًا عامة، ويتم عرض تلك الأخبار من خلال تقنية RSS لموقع المصري اليوم.</p>
+    <div class="menu">
+        <a  href="اخبار الزهب.html">أخبار الذهب والدولار</a>
+        <a  href="اخبار عامه.html">أخبار عامة</a>
+        <a href="حوادث.html">الحوادث</a>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCUPrpsqlW2aLUoXPh_oxWlCMTqCVLNAvY",
+          authDomain: "scan-qr-code-for-samsung.firebaseapp.com",
+          projectId: "scan-qr-code-for-samsung",
+          storageBucket: "scan-qr-code-for-samsung.appspot.com",
+          messagingSenderId: "520602349256",
+          appId: "1:520602349256:web:315b7390ce0e44485e7ffd",
+          measurementId: "G-ZJGV4EBPRF"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
