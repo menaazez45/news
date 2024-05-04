@@ -1,52 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="Dx1IChkrxQPtVM6jcYXPjRfKWqK_D1CsvCd6zLgNoJE" />
-    <meta name="descripe" content="موقع اخبار , اخبار , اخبار مصر , اخبار كوره , اخبار فيروس كرونا , الصحه , جامعات و مدارس , اخبار الزهب و الدولار  , كتاب المصري اليوم , اخبار الحوادث"/>
-    <title>الصفحة الرئيسية</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            font-size: 40px;
-        }
-        .p {
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        .menu {
-            background-color: #f2f2f2;
-            padding: 10px 0;
-        }
-        .menu a {
-            text-decoration: none;
-            color: #333;
-            font-size: 18px;
-            padding: 0 20px;
-        }
-        .menu a:hover {
-            color: #555;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>التعليم المصري</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="descripe" content="3اعدادي, ثالثه اعدادي">
+  <meta name="google-site-verification" content="6A3cap4a08e9cXS333kd-Ydj5UpLrNLwJE7h_XXOIjw" />
+  <style>
+    /* استيل للزر */
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: #4CAF50; /* لون الخلفية */
+        color: white; /* لون النص */
+        border-radius: 5px; /* زوايا مستديرة */
+        cursor: pointer; /* تغيير المؤشر إلى يد لإظهار أنه زر قابل للنقر */
+        margin: 5px; /* هامش حول الزر */
+    }
+    
+    .button:hover {
+        background-color: #45a049; /* تغيير لون الخلفية عند تحويم المؤشر */
+    }
+    
+    .button:active {
+        background-color: #3e8e41; /* تغيير لون الخلفية عند النقر */
+    }
+    
+    /* تصميم Flexbox */
+    .container {
+        display: flex;
+        align-items: flex-end; /* توجيه العناصر إلى أسفل الصفحة */
+        justify-content: center; /* توسيط العناصر أفقياً */
+        min-height: 100vh; /* جعل الحاوية تمتد لارتفاع الشاشة بالكامل */
+    }
+    
+    .button-container {
+        margin-bottom: 20px; /* هامش بين الزر وأسفل الصفحة */
+    }
+    p{
+        font-size: 50px;
+        text-align: center;
+    }
+    /* استيل للقائمة العلوية */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        text-align: center; /* توسيط العناصر داخل القائمة */
+    }
+
+    .navbar a {
+        display: inline-block; /* عرض العناصر في صفوف متتالية */
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+  </style>
 </head>
 <body>
+<div class="navbar">
+    <!-- إضافة الزر داخل القائمة العلوية -->
+    <a href="3 اعدادي.html" class="button">3 اعدادي</a>
+    <a href="ثانيه ثانوي علمي.html" class="button">ثانيه ثانوي علمي</a>
+    <a href="ثانيه ثانوي.html" class="button">ثانيه ثانوي ادبي</a>
 
-    <h1>مرحبا بكم</h1>
-    <p class="p">في الموقع يعرض لكم أخبارًا عن الذهب والدولار وحوادث و أخبارًا عامة، ويتم عرض تلك الأخبار من خلال تقنية RSS لموقع المصري اليوم.</p>
-    <div class="menu">
-        <a  href="اخبار الزهب.html">أخبار الذهب والدولار</a>
-        <a  href="اخبار مصر.html">أخبار مصر</a>
-        <a href="حوادث.html">الحوادث</a>
-        <a href="رياضه.html">رياضه</a>
-        <a href="فيروس كرونا.html">فيروس كرونا</a>
-        <a href="الصحه.html">الصحه</a>
-        <a href="كتاب المصري اليوم.html">كتاب المصري اليوم</a>
-        <a href="جامعات و مدارس.html">جامعات و مدارس</a>
-    </div>
+</div>
+
+<p>مرحبا بكم  في الموقع هنا ستجدوا المواد الدراسيه
+  <br>
+  ل 3 اعدادي و ثانوي
+</p>
+
 
 </body>
 </html>
