@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>فيروس كرونا</title>
-    <meta name="descripe" content="اخبار فيروس كرونا">
+    <title>جامعات و مدارس</title>
+    <meta name="descripe" content="اخبار الجامعات , اخبار المدارس , اخبار الجامعات و المدارس">
 
     <style>
         /* أسلوب التصميم */
@@ -32,14 +32,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>آخر الأخبار</h1>
+        <h1>جامعات و مدارس</h1>
         <div id="newsFeed"></div>
         <a class="back-button" href="javascript:history.back()">رجوع للخلف</a>
     </div>
 
     <script>
         // كود جلب الأخبار من تغذية RSS
-        const feedUrl = 'https://www.almasryalyoum.com/rss/rssfeed?sectionId=134';
+        const feedUrl = 'https://www.almasryalyoum.com/rss/rssfeed?sectionId=154';
 
         fetch(feedUrl)
             .then(response => response.text())
